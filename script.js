@@ -20,3 +20,16 @@ console.log(checkAge(14))
  // Output : Minor
 console.log(checkAge(20))
  // Output : Adult
+ 
+ 
+ 
+// =========================
+//      ***** Practice Problem 3  *****
+// ======================== 
+
+const value = (num) => num % 2 === 0 ? "Even" : "Odd"
+console.log(value(10))
+// Output : Even
+
+console.log(value(-1))
+// Output : Odd
